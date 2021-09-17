@@ -12,16 +12,17 @@ var boilingPoint= 212
 var temp = 35
 var temp = 350
 var temp = 212
-if(temp === boilingPoint) {
+if(temp < boilingPoint) {
   console.log("35 is below boiling point");
 }
-else if(temp === boilingPoint) {
+else if(temp > boilingPoint) {
   console.log("350 is above boiling point");
 }
 else if (true) {
 }(temp === boilingPoint) {
 console.log("212 is at boiling point");
-// --------------------2) Create the code that will combine two arrays and return the length using the variables provided below. Expected output: 10
+// // --------------------2) Create the code that will combine two arrays and return the length using the variables provided below. Expected output: 10
+// //concat two variables and call length
 var myNumbers1 = [3, 7, 0, 36, -9]
 var myNumbers2 = [8, -7, 22, 9, 13]
 const myNumbers3 = myNumbers1.concat(myNumbers2);
@@ -46,7 +47,7 @@ var number2 = 19
 if(number1 < number2)
 {number2-number1}
 else {number1-number2}
-// --------------------5) Copy/paste your code from #4. Refactor your code to also accept non-number edge cases. Inform your user if the variable is not a number using the two sets of test variables provided below. Expected output: "Your input is not a number", 3
+// // --------------------5) Copy/paste your code from #4. Refactor your code to also accept non-number edge cases. Inform your user if the variable is not a number using the two sets of test variables provided below. Expected output: "Your input is not a number", 3
 var numberRefactor1 = 42
 var numberRefactor2 = "hello"
 if(typeof(numberRefactor1) || typeof(numberRefactor2) == "numbers") {
@@ -57,4 +58,4 @@ var numberRefactor1 = 27
 var numberRefactor2 = 24
 if(typeof(numberRefactor1) || typeof(numberRefactor2) == "numbers") {
 console.log("hello, your variable is not a number");
-}
+// }
